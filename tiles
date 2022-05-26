@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+</body>
+<style>
+.column-1 {
+  float: left;
+  width: 10%;
+  padding: 40px;
+  margin:40px;
+  height: 150px;
+  background-color:white;
+}
+.column-2 {
+  float: right;
+  width: 40%;
+  padding: 40px;
+  margin:40px;
+  height: 460px;
+  background-color:white;
+}
+
+.project-text {
+  text-align:left;
+  font-size:20px;
+}
+</style>
+<div class="column-1">
+  <h1 class="project-text">Customers</h1>
+</div>
+
+<div class="column-1">
+  <h1 class="project-text">Orders</h1>
+</div>
+
+<div class="column-2">
+  <h1 class="project-text">Projections vs Actuals</h1>
+</div>
+
+
+<div class="column-1">
+  <h1 class="project-text">Revenue</h1>
+</div>
+
+<div class="column-1">
+  <h1 class="project-text">Growth</h1>
+</div>
+
+</html>
