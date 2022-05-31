@@ -1,49 +1,102 @@
 <!DOCTYPE html>
 <html>
-<body style="background-color:AliceBlue;">
+<head>
+<p><font face="calibri" color="Grey" size="5"> Dashboard</font></p>
+<script src="https://kit.fontawesome.com/a304aacbd7.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-color:GhostWhite;">
 </body>
 <style>
 .column-1 {
-  float: left;
-  width: 10%;
-  padding: 40px;
-  margin:40px;
-  height: 150px;
+  float:left;
+  width:16%;
+  padding:28px;
+  margin:16px;
+  height:100px;
   background-color:white;
 }
 .column-2 {
-  float: right;
-  width: 40%;
-  padding: 40px;
-  margin:40px;
-  height: 460px;
+  float:right;
+  width:47%;
+  padding:25px;
+  margin:14px;
+  height:295px;
   background-color:white;
 }
-
 .project-text {
   text-align:left;
-  font-size:20px;
+  font-family:Arial;
+  font-size:90%;
+  color:#A9A9A9;
+}
+.fa-user-group {
+  float:right;
+  width: 7%;
+  padding: 12px;
+  margin:3px;
+  height: 14px;
+  background-color:#CCCCFF;
+  color:#5D3FD3;
+}
+.fa-cart-plus {
+  float:right;
+  width: 8%;
+  padding: 12px;
+  margin:3px;
+  height: 14px;
+  background-color:#CCCCFF;
+  color:#5D3FD3;
+}
+.fa-dollar-sign {
+  float:right;
+  width: 7%;
+  padding: 12px;
+  margin:3px;
+  height: 14px;
+  background-color:#CCCCFF;
+  color:#5D3FD3;
+}
+.fa-chart-line {
+  float:right;
+  width: 7%;
+  padding: 12px;
+  margin:3px;
+  height: 14px;
+  background-color:#CCCCFF;
+  color:#5D3FD3;
+}
+.fa-arrow-up {
+  color:mediumspringgreen;
+}
+.fa-arrow-down {
+  color:red;
 }
 </style>
 <div class="column-1">
-  <h1 class="project-text">Customers</h1>
+  <i class="fa-solid fa-user-group"></i>
+  <p class="project-text">Customers</p>
+  <p><font face="Arial" color="Grey" size="5">36,254</font></p>
+  <i class="fa-solid fa-arrow-up"><font face="Calbri" size="3"<i> 5.27%  &nbsp; </i> </font> <font face="Arial" size="2" color = "#A9A9A9"<i>Since last month</i></font></i>
 </div>
-
 <div class="column-1">
-  <h1 class="project-text">Orders</h1>
+  <i class="fa-solid fa-cart-plus"></i>
+  <p class="project-text">Orders</p>
+  <p><font face="Arial" color="Grey" size="5">5,543</font></p>
+  <i class="fa-solid fa-arrow-down"><font face="calibir light" size="3" <i>1.08% &nbsp; </i> </font> <font face="Arial" size="2" color = "#A9A9A9"<i>Since last month</i></font></i>
 </div>
-
 <div class="column-2">
-  <h1 class="project-text">Projections vs Actuals</h1>
+  <p><font face="calibri" color="Grey" size="3">PROJECTIONS VS ACTUALS</P>
 </div>
-
-
 <div class="column-1">
-  <h1 class="project-text">Revenue</h1>
+  <i class="fa-solid fa-dollar-sign"></i>
+  <p class="project-text">Revenue</p>
+  <p><font face="Arial" color="Grey" size="5">$6,254</font></p>
+  <i class="fa-solid fa-arrow-down"><font face="calibir light" size="3" <i>7.00% &nbsp; </i></font> <font face="Arial" size="2" color = "#A9A9A9"<i>Since last month</i></font></i>
 </div>
-
 <div class="column-1">
-  <h1 class="project-text">Growth</h1>
+  <i class="fa-solid fa-chart-line"></i>
+  <p class="project-text">Growth</p>
+  <p><font face="Arial" color="Grey" size="5">+30.56% </font></p>
+  <i class="fa-solid fa-arrow-up"><font face="calibir light" size="3"<i> 4.87% &nbsp; </i> </font> <font face="Arial" size="2" color = "#A9A9A9"<i>Since last month</i></font></i>
 </div>
-
 </html>
